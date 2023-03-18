@@ -9,7 +9,7 @@ export default function contact() {
       <Head>
         <title>Contact Page</title>
       </Head>
-      <div className="self-end p-1 overflow-hidden">
+      <div className="self-end p-2 overflow-hidden">
         <m.h1
           className="text-6xl text-center lg:text-8xl lg:text-right"
           initial={{ y: '100%' }}

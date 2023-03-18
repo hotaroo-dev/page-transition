@@ -16,7 +16,7 @@ export default function Layout({ children, home }) {
         initial={{ y: '100%' }}
         animate={{ y: 0 }}
         exit={{ opacity: 1 }}
-        transition={{ duration: 0.75, ease: 'easeOut' }}
+        transition={{ duration: 0.65, ease: 'easeOut' }}
       >
         {children}
       </m.main>
