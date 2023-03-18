@@ -10,7 +10,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <m.main
-        className={`absolute top-0 w-full h-screen px-10 grid grid-rows-2 lg:px-16 ${
+        className={`absolute top-0 w-full h-screen px-8 grid grid-rows-2 lg:px-16 ${
           home ? 'bg-orange-100' : 'bg-red-400'
         }`}
         initial={{ y: '100%' }}
